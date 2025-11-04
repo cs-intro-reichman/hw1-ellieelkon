@@ -22,7 +22,7 @@ public class TimeFormat {
 			if (hours == 0 && minutes >= 10 && minutes < 60) {
 			System.out.print(hours + ":" + minutes + " AM") ; }
 		
-		if (hours ==12 && minutes >= 10 && minutes < 60) {
+		if (hours ==12 && minutes >= 0 && minutes < 10) {
 			System.out.print(hours + ":0" + minutes + " PM") ; }
 	
 		if (hours ==12 && minutes >= 10 && minutes < 60){
